@@ -6,59 +6,59 @@ import React from 'react'
 const CardServices = () => {
     return (
         <>
-           
+
             <div className='services'>
-            <h2>Services</h2>
-            <Divider/>
+                <h2>Services</h2>
+                <Divider />
                 <div className='cards'>
                     <div className='card'>
                         <div className='icon'>
-                            <FileAddFilled />
+                            <i class="ri-smartphone-line"></i>
                         </div>
                         <div className='text'>
-                            Visit our Snacks  portion <br /> for consultency
+                            Mobile Application
                         </div>
                     </div>
                     <div className='card'>
                         <div className='icon'>
-                            <FileAddFilled />
+                            <i class="ri-window-line"></i>
                         </div>
                         <div className='text'>
-                            Visit our Snacks  portion <br /> for consultency
+                            Web Application
                         </div>
                     </div>
                     <div className='card'>
                         <div className='icon'>
-                            <FileAddFilled />
+                        <i class="ri-unsplash-fill"></i>
                         </div>
                         <div className='text'>
-                            Visit our Snacks  portion <br /> for consultency
+                            UI/UX Design
                         </div>
                     </div>
                 </div>
                 <div className='cards'>
                     <div className='card'>
                         <div className='icon'>
-                            <FileAddFilled />
+                        <i class="ri-robot-2-line"></i>
                         </div>
                         <div className='text'>
-                            Visit our Snacks  portion <br /> for consultency
+                            AI (Artifiical Intelligence)
                         </div>
                     </div>
                     <div className='card'>
                         <div className='icon'>
-                            <FileAddFilled />
+                        <i class="ri-router-line"></i>
                         </div>
                         <div className='text'>
-                            Visit our Snacks  portion <br /> for consultency
+                            IoT (Internet of things)
                         </div>
                     </div>
                     <div className='card'>
                         <div className='icon'>
-                            <FileAddFilled />
+                        <i class="ri-folder-image-line"></i>
                         </div>
                         <div className='text'>
-                            Visit our Snacks  portion <br /> for consultency
+                            Figma Designs
                         </div>
                     </div>
                 </div>
