@@ -6,7 +6,7 @@ import { Divider } from 'antd';
 const ReviewClient = () => {
     const [testimonialIndex, setTestimonialIndex] = useState(0);
     const [progressBarWidth, setProgressBarWidth] = useState(0);
-
+console.log(progressBarWidth);
     const testimonials = [
         {
             name: 'Miyah Myles',
@@ -60,7 +60,7 @@ const ReviewClient = () => {
           setProgressBarWidth(100); 
         }, 100); 
         
-        console.log(progressBarWidth);
+        // console.log(progressBarWidth);
         return () => clearTimeout(timeout);
       }, [testimonialIndex]);
 

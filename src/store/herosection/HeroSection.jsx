@@ -2,7 +2,6 @@ import React from 'react'
 import { CheckOutlined } from '@ant-design/icons';
 import { Avatar, Col, Input, Row } from 'antd';
 import img  from '../../images/c.webp'
-import banner from '../../images/hero.jpg'
 const { Search } = Input;
 
 const HeroSection = () => {
